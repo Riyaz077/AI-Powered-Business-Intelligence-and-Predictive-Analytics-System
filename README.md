@@ -39,53 +39,24 @@ ai_business_operations_intelligence/
     └── pipeline.py
 ```
 
-## Quick start
+## **Quick Start**
 
-Python 3.10 or newer is recommended.
-
-### 1. Create and activate a virtual environment
-
-Windows:
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-macOS/Linux:
-```bash
-python -m venv .venv
-source .venv/bin/activate
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Generate the demo data and run the analytics pipeline
-
-```bash
-python -m src.pipeline --generate-demo
-```
-
-This creates:
-- `data/demo_business_data.csv`
-- `results/cleaned_business_data.csv`
-- `results/sales_predictions.csv`
-- `results/anomaly_records.csv`
-- `results/business_recommendations.csv`
-- `results/model_metrics.json`
-- `models/sales_model.joblib`
-- `models/anomaly_model.joblib`
-
-### 4. Launch the dashboard
-
-```bash
-streamlit run app.py
-```
-
-If you skip the pipeline step, the dashboard will guide you to run it.
+- **Prerequisites:** Python 3.10 or newer.
+- **Step 1 – Create a Virtual Environment:** Set up and activate a virtual environment to keep project dependencies isolated.
+- **Step 2 – Install Dependencies:** Install all required Python libraries listed in the requirements file.
+- **Step 3 – Generate Demo Data:** Generate synthetic business data to demonstrate the project's analytics capabilities.
+- **Step 4 – Run the Analytics Pipeline:** Execute the complete pipeline, including data preprocessing, sales prediction, anomaly detection, business recommendations, and model evaluation.
+- **Step 5 – Generated Outputs:**
+  - Demo business dataset.
+  - Cleaned business dataset.
+  - Sales prediction results.
+  - Anomaly detection records.
+  - Business recommendations.
+  - Model performance metrics.
+  - Trained sales prediction model.
+  - Trained anomaly detection model.
+- **Step 6 – Launch the Dashboard:** Start the interactive Streamlit dashboard to explore analytics, predictions, anomalies, and business insights.
+- **Note:** If the analytics pipeline has not been executed, the dashboard will guide you through the required setup process.
 
 ## Dashboard sections
 
@@ -135,14 +106,16 @@ A transparent rule-based recommendation layer converts indicators into suggested
 - Recommendations are rule-based, not autonomous decisions.
 - This project is a portfolio demonstration, not a production-ready enterprise platform.
 
-## Suggested GitHub repository description
+## **Responsible Use**
 
-`An end-to-end AI business operations analytics platform featuring sales prediction, anomaly detection, KPI monitoring, and decision-support recommendations.`
+- Use the system strictly for business analytics and decision-support purposes.
+- Protect sensitive, confidential, and personally identifiable information.
+- Verify AI-generated predictions and recommendations before making business decisions.
+- Regularly monitor model accuracy, reliability, and potential biases.
+- Maintain human oversight and follow ethical AI practices and data protection guidelines.
 
-## Suggested LinkedIn project description
+## Author
 
-Built an end-to-end Business Operations Intelligence platform using Python, machine learning, and Streamlit. The system combines operational KPI analysis, Random Forest-based sales estimation, Isolation Forest anomaly detection, and rule-based recommendations in an interactive dashboard. Includes a reproducible synthetic-data pipeline, model evaluation, and visual analytics.
-
-## License
-
-MIT License. See `LICENSE`.
+**Mohamed Riyaz S.**  
+Integrated M.Tech, Computer Science and Engineering (Business Analytics)  
+VIT Chennai
