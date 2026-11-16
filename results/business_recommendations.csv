@@ -1,0 +1,6 @@
+area,finding,recommended_action,priority,evidence
+Returns,Monitor product returns,Continue tracking return rates by category and region.,Low,Average return rate is 7.0%.
+Inventory,Maintain inventory balance,Compare inventory coverage with demand before replenishment.,Medium,Average inventory is 264 units.
+Supply Chain,Supplier delivery performance,Continue monitoring supplier lead times and delay trends.,Low,Average supplier delay is 2.3 days.
+Profitability,Track margin by category,Compare category-level margins to identify improvement opportunities.,Medium,Average profit margin is 21.8%.
+Risk Monitoring,Review flagged operational records,Investigate flagged records with source-system context before taking action.,Medium,Isolation Forest flagged 45 records for review.
